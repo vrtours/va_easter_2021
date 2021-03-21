@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="17956" start="node6" appversion="6.1.8">
+  <panorama hideabout="1" id="node6">
+    <input width="1920" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" leveltilesize="510">
+      <level width="1920" height="1920" predecode="0" preload="0"/>
+      <level width="960" height="960" predecode="0" preload="0"/>
+      <level width="480" height="480" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="31">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovfisheye="360" tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120"/>
+    </view>
+    <userdata title="Big Wheel" author="" copyright="" info="" latitude="-33.90509945" customnodeid="EggSpot1" datetime="" source="" longitude="18.42007589" nodeid="node6" heading="31" comment="" tags="egg1|KDOutput|sound" description="">
+      <mapcoords mapid="Plan" x="0.793762" x_floorplan_percent="46.24" y="-0.569229" y_floorplan_percent="34.8319"/>
+    </userdata>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" border="1" bordercolor="0x000000" enabled="1" background="1" height="20" wordwrap="1" textcolor="0x000000" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="" target="_blank" url="" id="Point01" tilt="-90" pan="0" skinid="ht_logo" description=""/>
+      <hotspot title="V&amp;A Busker Spot" target="" url="" id="Point05" tilt="-6.46" pan="-309.78" skinid="ht_info" description="Busking is performance art that takes place on the street for voluntary donations – and is practiced all over the world. Contributing to the vibrant atmosphere, it has been an integral part of the V&amp;A Waterfront since inception, some 30 years ago. &#xa;At The V&amp;A Waterfront however, the busking programme is more than just performing for tips. It is an entrepreneurship development and incubation programme, focused on all types of performers; from musicians and magicians, to freestyle footballers and mime’s alike. The main goal of the programme is to create a platform for young performers to develop their craft and become successful entrepreneurs."/>
+      <hotspot distance="22.7045" title="Amphitheatre" target="$fwd" url="{node9}" id="Point01" tilt="0" pan="19.5043" skinid="ht_node" description=""/>
+      <hotspot title="" target="_blank" url="" id="Egg_1_1_1" tilt="20.49" pan="-287.75" skinid="ht_hidden_1" description=""/>
+      <hotspot title="" target="_blank" url="" id="Egg_1_2_4" tilt="5.24" pan="-67.51" skinid="ht_hidden_4" description=""/>
+      <hotspot title="" target="_blank" url="" id="Egg_1_3_7" tilt="3.21" pan="-161.19" skinid="ht_hidden_7" description=""/>
+    </hotspots>
+    <media>
+      <sound nodechangekeep="0" field="90.000" tiltsize="10.000" mode="1" loop="1" level="1.000" ambientlevel="0.000" startmutedmobile="0" id="Element01" tilt="-12.590" pan="-313.020" pansize="10.000">
+        <source url="media/C0050 (audio-extractor.net).mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" zoomin="0" enabled="1" zoomoutpause="1" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomfov="20" zoomspeed="2" zoomout="0"/>
+    <autorotate delay="5.00" enabled="1" nodefilter="" noderandom="1" returntohorizon="0.000" startloaded="0" speed="0.100" useanimation="0" nodedelay="0.00"/>
+    <flyintransition enabled="1" speed="1.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control contextprojections="0" invertwheel="0" speedwheel="1" rubberband="0" contextfullscreen="0" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" hideabout="1" sensitivity="8" invertcontrol="1">
+      <menulink url="https://vrtours.github.io/" text="Create your own VRTour"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node9">
+    <input width="1920" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" leveltilesize="510">
+      <level width="1920" height="1920" predecode="0" preload="0"/>
+      <level width="960" height="960" predecode="0" preload="0"/>
+      <level width="480" height="480" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="-126">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovfisheye="360" tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120"/>
+    </view>
+    <userdata title="Amphitheatre" author="" copyright="" info="" latitude="-33.90489936" customnodeid="EggSpot2" datetime="" source="" longitude="18.42012492" nodeid="node9" heading="-126" comment="" tags="egg2|KDOutput" description="">
+      <mapcoords mapid="Plan" x="0.797195" x_floorplan_percent="46.44" y="-0.551376" y_floorplan_percent="33.7395"/>
+    </userdata>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" border="1" bordercolor="0x000000" enabled="1" background="1" height="20" wordwrap="1" textcolor="0x000000" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="" target="_blank" url="" id="Point01" tilt="-90" pan="0" skinid="ht_logo" description=""/>
+      <hotspot title="The Amphitheatre" target="" url="" id="Point03" tilt="-7.87" pan="-108.87" skinid="ht_info" description="The Amphitheatre at the Waterfront provides a great central spot for live entertainment. The amphitheatre is centrally located, and there are various fast food restaurant as well as sit-down restaurant in the surrounding area. The harbour is a short walk away and table mountain is in full view. The whole area is connected with free wifi."/>
+      <hotspot title="Hakuna Matata - Hassan'Adas | Cape Town Jazzathon 2020 Festival Live Performance" target="" url="z5wsZV_GwDY" id="Point04" tilt="-5.22" pan="-266.29" skinid="ht_video_youtube" description=""/>
+      <hotspot distance="45.836" title="Flagpole Terrace" target="$fwd" url="{node32}" id="Point01" tilt="1.41" pan="-181.286" skinid="ht_node" description=""/>
+      <hotspot distance="22.7045" title="Big Wheel" target="$fwd" url="{node6}" id="Point02" tilt="-5.15" pan="33.6043" skinid="ht_node" description=""/>
+      <hotspot title="" target="_blank" url="" id="Egg_2_1_2" tilt="5.27" pan="-25.35" skinid="ht_hidden_2" description=""/>
+      <hotspot title="" target="_blank" url="" id="Egg_2_2_5" tilt="63.35" pan="-95.53" skinid="ht_hidden_5" description=""/>
+      <hotspot title="" target="_blank" url="" id="Egg_2_3_8" tilt="-1.21" pan="-211.09" skinid="ht_hidden_8" description=""/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomin="0" enabled="1" zoomoutpause="1" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomfov="20" zoomspeed="2" zoomout="0"/>
+    <autorotate delay="5.00" enabled="1" nodefilter="" noderandom="1" returntohorizon="0.000" startloaded="0" speed="0.100" useanimation="0" nodedelay="0.00"/>
+    <flyintransition enabled="1" speed="1.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control contextprojections="0" invertwheel="0" speedwheel="1" rubberband="0" contextfullscreen="0" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" hideabout="1" sensitivity="8" invertcontrol="1">
+      <menulink url="https://vrtours.github.io/" text="Create your own VRTour"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node32">
+    <input width="1920" levelbiashidpi="1.000" levelingroll="0" levelingpitch="1" overlap="1" height="1920" leveltileurl="tiles/node32/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" leveltilesize="510">
+      <level width="1920" height="1920" predecode="0" preload="0"/>
+      <level width="960" height="960" predecode="0" preload="0"/>
+      <level width="480" height="480" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="61">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovfisheye="360" tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120"/>
+    </view>
+    <userdata title="Flagpole Terrace" author="" copyright="" info="" latitude="-33.90451968" customnodeid="EggSpot3" datetime="" source="" longitude="18.42031831" nodeid="node32" heading="61" comment="" tags="egg3|KDOutput" description="">
+      <mapcoords mapid="Plan" x="0.832901" x_floorplan_percent="48.52" y="-0.505371" y_floorplan_percent="30.9244"/>
+    </userdata>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" border="1" bordercolor="0x000000" enabled="1" background="1" height="20" wordwrap="1" textcolor="0x000000" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="" target="_blank" url="" id="Point01" tilt="-90" pan="0" skinid="ht_logo" description=""/>
+      <hotspot distance="45.836" title="Amphitheatre" target="$fwd" url="{node9}" id="Point01" tilt="0" pan="218.084" skinid="ht_node" description=""/>
+      <hotspot title="" target="_blank" url="" id="Egg_3_1_3" tilt="28.43" pan="-266.97" skinid="ht_hidden_3" description=""/>
+      <hotspot title="" target="_blank" url="" id="Egg_3_2_6" tilt="30.17" pan="-113.33" skinid="ht_hidden_6" description=""/>
+      <hotspot title="" target="_blank" url="" id="Egg_3_3_9" tilt="-3.83" pan="-53.56" skinid="ht_hidden_9" description=""/>
+      <hotspot title="" target="_blank" url="" id="Egg_3_4_10" tilt="13.63" pan="-207.59" skinid="ht_hidden_10" description=""/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomin="0" enabled="1" zoomoutpause="1" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomfov="20" zoomspeed="2" zoomout="0"/>
+    <autorotate delay="5.00" enabled="1" nodefilter="" noderandom="1" returntohorizon="0.000" startloaded="0" speed="0.100" useanimation="0" nodedelay="0.00"/>
+    <flyintransition enabled="1" speed="1.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control contextprojections="0" invertwheel="0" speedwheel="1" rubberband="0" contextfullscreen="0" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" hideabout="1" sensitivity="8" invertcontrol="1">
+      <menulink url="https://vrtours.github.io/" text="Create your own VRTour"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata title="" author="" copyright="" info="" latitude="" customnodeid="" datetime="" source="" longitude="" nodeid="master" heading="0" comment="" tags="" description=""/>
+  </masternode>
+  <map title="" width="2500" height="2380" bgcolor="rgba(255, 255, 255, 1)" zoomlevels="5" transparent="0" type="file" id="Plan" floorplannorth="0" tileformat="jpg"/>
+</tour>
