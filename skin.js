@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.8/17956
 // Filename: Waterfront_Easter.ggsk
-// Generated 2021-03-21T21:29:09
+// Generated 2021-03-21T21:33:34
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -14029,10 +14029,10 @@ pano.setVariableValue("random_ad", randomNumber+1)
 			var aspectRatioDiv = me._external_6.clientWidth / me._external_6.clientHeight;
 			var aspectRatioImg = img.naturalWidth / img.naturalHeight;
 			var currentWidth,currentHeight;
-			currentWidth = parentWidth;
-			currentHeight = parentWidth / aspectRatioImg;
-			img.style.width=parentWidth + 'px';
-			img.style.height='';
+			currentHeight = parentHeight;
+			currentWidth = parentHeight * aspectRatioImg;
+			img.style.width='';
+			img.style.height=parentHeight + 'px';
 			img.style.left='50%';
 			img.style.marginLeft='-' + currentWidth/2 + 'px';
 			img.style.top='50%';
@@ -14044,15 +14044,16 @@ pano.setVariableValue("random_ad", randomNumber+1)
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="info_text_body_1";
+		el.ggDx=-7;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_text info_body";
 		el.ggType='text';
 		hs ='';
+		hs+='bottom : 21px;';
 		hs+='height : 49.0741%;';
-		hs+='left : 12px;';
+		hs+='left : -10000px;';
 		hs+='position : absolute;';
-		hs+='top : 89px;';
 		hs+='visibility : inherit;';
 		hs+='width : 89.8438%;';
 		hs+='pointer-events:auto;';
@@ -14062,7 +14063,7 @@ pano.setVariableValue("random_ad", randomNumber+1)
 		hs += 'box-sizing: border-box;';
 		hs+='cursor: default;';
 		hs+='left: 0px;';
-		hs+='top:  0px;';
+		hs+='bottom:  0px;';
 		hs+='width: 100%;';
 		hs+='height: 100%;';
 		hs+='border: 0px solid #000000;';
@@ -14160,6 +14161,17 @@ pano.setVariableValue("random_ad", randomNumber+1)
 			}
 		}
 		me._info_text_body_1.ggUpdatePosition=function (useTransition) {
+			if (useTransition==='undefined') {
+				useTransition = false;
+			}
+			if (!useTransition) {
+				this.style[domTransition]='none';
+			}
+			if (this.parentNode) {
+				var pw=this.parentNode.clientWidth;
+				var w=this.offsetWidth;
+					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
+			}
 		}
 		me._itemfound.appendChild(me._info_text_body_1);
 		el=me._info_title_1=document.createElement('div');
