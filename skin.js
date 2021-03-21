@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.8/17956
 // Filename: Waterfront_Easter.ggsk
-// Generated 2021-03-21T21:09:09
+// Generated 2021-03-21T21:29:09
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -13259,7 +13259,8 @@ pano.setVariableValue("random_ad", randomNumber+1)
 		me._information.logicBlock_size = function() {
 			var newLogicStateSize;
 			if (
-				((player.getIsMobile() == true))
+				((player.getIsMobile() == true)) || 
+				((player.getViewerSize().width < 450))
 			)
 			{
 				newLogicStateSize = 0;
@@ -13863,7 +13864,8 @@ pano.setVariableValue("random_ad", randomNumber+1)
 		me._itemfound.logicBlock_size = function() {
 			var newLogicStateSize;
 			if (
-				((player.getIsMobile() == true))
+				((player.getIsMobile() == true)) || 
+				((player.getViewerSize().width < 450))
 			)
 			{
 				newLogicStateSize = 0;
@@ -14337,7 +14339,8 @@ pano.setVariableValue("random_ad", randomNumber+1)
 		me._enter_compitition.logicBlock_size = function() {
 			var newLogicStateSize;
 			if (
-				((player.getIsMobile() == true))
+				((player.getIsMobile() == true)) || 
+				((player.getViewerSize().width < 450))
 			)
 			{
 				newLogicStateSize = 0;
@@ -32028,9 +32031,12 @@ gtag('config', ua_id);
 	me._fl_desktop.logicBlock_visible();
 	me._sound_on_off.logicBlock_position();
 	me._video_popup_youtube.logicBlock_size();
+	me._information.logicBlock_size();
 	me._info_text_body.logicBlock_position();
 	me._info_text_body.logicBlock_size();
 	me._infoimage.logicBlock_size();
+	me._itemfound.logicBlock_size();
+	me._enter_compitition.logicBlock_size();
 	me._playmedia.logicBlock_position();
 	me._eggscape.logicBlock_position();
 	me._fl_mobile.logicBlock_visible();
@@ -32145,14 +32151,11 @@ gtag('config', ua_id);
 	me._tt_rotate.logicBlock_position();
 	me._tt_zoomout.logicBlock_position();
 	me._tt_zoomin.logicBlock_position();
-	me._information.logicBlock_size();
-	me._itemfound.logicBlock_size();
-	me._enter_compitition.logicBlock_size();
 	me._startscreen.logicBlock_size();
 	me._tt_projection0.logicBlock_text();
 	me._tt_projection.logicBlock_text();
 	me._enter_vr.logicBlock_visible();
-	player.addListener('sizechanged', function(args) { me._screentint.logicBlock_alpha();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu.logicBlock_alpha();me._thumbnail_menu_mobile.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_alpha();me._google_prize_text_desktop.logicBlock_visible();me._google_prize_text_mobile2.logicBlock_visible();me._map_popup_desktop.logicBlock_visible();me._svg_2.logicBlock_visible();me._branding_mobile.logicBlock_visible();me._branding_desktop.logicBlock_visible();me._tt_thumbnail_open.logicBlock_text();me._fl_desktop.logicBlock_visible();me._sound_on_off.logicBlock_position();me._video_popup_youtube.logicBlock_size();me._info_text_body.logicBlock_position();me._info_text_body.logicBlock_size();me._infoimage.logicBlock_size();me._playmedia.logicBlock_position();me._eggscape.logicBlock_position();me._fl_mobile.logicBlock_visible(); });
+	player.addListener('sizechanged', function(args) { me._screentint.logicBlock_alpha();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu.logicBlock_alpha();me._thumbnail_menu_mobile.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_alpha();me._google_prize_text_desktop.logicBlock_visible();me._google_prize_text_mobile2.logicBlock_visible();me._map_popup_desktop.logicBlock_visible();me._svg_2.logicBlock_visible();me._branding_mobile.logicBlock_visible();me._branding_desktop.logicBlock_visible();me._tt_thumbnail_open.logicBlock_text();me._fl_desktop.logicBlock_visible();me._sound_on_off.logicBlock_position();me._video_popup_youtube.logicBlock_size();me._information.logicBlock_size();me._info_text_body.logicBlock_position();me._info_text_body.logicBlock_size();me._infoimage.logicBlock_size();me._itemfound.logicBlock_size();me._enter_compitition.logicBlock_size();me._playmedia.logicBlock_position();me._eggscape.logicBlock_position();me._fl_mobile.logicBlock_visible(); });
 	player.addListener('tilesready', function(args) { me._loading_multires.logicBlock_visible(); });
 	player.addListener('tilesrequested', function(args) { me._loading_multires.logicBlock_visible(); });
 	player.addListener('fullscreenenter', function(args) { me._fullscreen.logicBlock_alpha();me._fullscreen_off.logicBlock_alpha();me._tt_fullscreen.logicBlock_text(); });
