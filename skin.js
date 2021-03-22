@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.8/17956
 // Filename: Waterfront_Easter.ggsk
-// Generated 2021-03-22T10:38:19
+// Generated 2021-03-22T10:46:26
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -73,6 +73,7 @@ function pano2vrSkin(player,base) {
 	player.addVariable('UA_ID', 0, "UA-45058513-1");
 	player.addVariable('UA_category', 0, "Hey-V&A-Campaign");
 	player.addVariable('opt_indicators', 2, false);
+	player.addVariable('startHelpScreen', 2, true);
 	var me=this;
 	var skin=this;
 	var flag=false;
@@ -16575,7 +16576,7 @@ pano.setVariableValue("random_ad", randomNumber+1)
 					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
 			}
 		}
-		el=me._informationbg_2=document.createElement('div');
+		el=me._informationbg_20=document.createElement('div');
 		el.ggId="informationbg_2";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
@@ -16596,7 +16597,7 @@ pano.setVariableValue("random_ad", randomNumber+1)
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._informationbg_2.ggIsActive=function() {
+		me._informationbg_20.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -16608,11 +16609,11 @@ pano.setVariableValue("random_ad", randomNumber+1)
 			}
 			return player.getCurrentNode();
 		}
-		me._informationbg_2.ggUpdatePosition=function (useTransition) {
+		me._informationbg_20.ggUpdatePosition=function (useTransition) {
 		}
-		me._startscreen.appendChild(me._informationbg_2);
-		el=me._info_text_body_2=document.createElement('div');
-		els=me._info_text_body_2__text=document.createElement('div');
+		me._startscreen.appendChild(me._informationbg_20);
+		el=me._info_text_body_20=document.createElement('div');
+		els=me._info_text_body_20__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="info_text_body_2";
@@ -16648,7 +16649,7 @@ pano.setVariableValue("random_ad", randomNumber+1)
 		els.setAttribute('style',hs);
 		els.innerHTML="<iframe width=\"100%\" height=\"100%\" src=\"https:\/\/waterfront.co.za\/hey-competition-tcs\/\" frameborder=\"0\"><\/iframe>";
 		el.appendChild(els);
-		me._info_text_body_2.ggIsActive=function() {
+		me._info_text_body_20.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -16660,7 +16661,7 @@ pano.setVariableValue("random_ad", randomNumber+1)
 			}
 			return player.getCurrentNode();
 		}
-		me._info_text_body_2.ggUpdatePosition=function (useTransition) {
+		me._info_text_body_20.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {
 				useTransition = false;
 			}
@@ -16673,7 +16674,7 @@ pano.setVariableValue("random_ad", randomNumber+1)
 					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
 			}
 		}
-		me._startscreen.appendChild(me._info_text_body_2);
+		me._startscreen.appendChild(me._info_text_body_20);
 		el=me._info_accept=document.createElement('div');
 		els=me._info_accept__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
@@ -16725,8 +16726,8 @@ pano.setVariableValue("random_ad", randomNumber+1)
 		me._info_accept.ggUpdatePosition=function (useTransition) {
 		}
 		me._startscreen.appendChild(me._info_accept);
-		el=me._info_title_2=document.createElement('div');
-		els=me._info_title_2__text=document.createElement('div');
+		el=me._info_title_20=document.createElement('div');
+		els=me._info_title_20__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="info_title_2";
@@ -16761,6 +16762,344 @@ pano.setVariableValue("random_ad", randomNumber+1)
 		els.setAttribute('style',hs);
 		els.innerHTML="Terms and Conditions";
 		el.appendChild(els);
+		me._info_title_20.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._info_title_20.ggUpdatePosition=function (useTransition) {
+		}
+		me._startscreen.appendChild(me._info_title_20);
+		el=me._link_text_20=document.createElement('div');
+		els=me._link_text_20__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="link_text_2";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_text ";
+		el.ggType='text';
+		hs ='';
+		hs+='bottom : 15px;';
+		hs+='height : 20px;';
+		hs+='left : 12px;';
+		hs+='position : absolute;';
+		hs+='visibility : inherit;';
+		hs+='width : 90%;';
+		hs+='pointer-events:auto;';
+		hs+='font-weight: bold;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		hs ='position:absolute;';
+		hs += 'box-sizing: border-box;';
+		hs+='cursor: default;';
+		hs+='left: 0px;';
+		hs+='bottom:  0px;';
+		hs+='width: 100%;';
+		hs+='height: 20px;';
+		hs+='border: 0px solid #000000;';
+		hs+='color: rgba(255,255,255,1);';
+		hs+='text-align: left;';
+		hs+='white-space: nowrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		els.setAttribute('style',hs);
+		els.innerHTML="";
+		el.appendChild(els);
+		me._link_text_20.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._link_text_20.onclick=function (e) {
+			player.openUrl(player.hotspot.url,"_blank");
+		}
+		me._link_text_20.ggUpdatePosition=function (useTransition) {
+		}
+		me._startscreen.appendChild(me._link_text_20);
+		el=me._ht_info_close_20=document.createElement('div');
+		els=me._ht_info_close_20__img=document.createElement('img');
+		els.className='ggskin ggskin_svg';
+		me._ht_info_close_20__img.setAttribute('src',basePath + 'images/ht_info_close_20.svg');
+		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;');
+		els['ondragstart']=function() { return false; };
+		el.appendChild(els);
+		el.ggSubElement = els;
+		el.ggId="ht_info_close_2";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_svg ";
+		el.ggType='svg';
+		hs ='';
+		hs+='cursor : pointer;';
+		hs+='height : 32px;';
+		hs+='position : absolute;';
+		hs+='right : 1px;';
+		hs+='top : 4px;';
+		hs+='visibility : inherit;';
+		hs+='width : 32px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		me._ht_info_close_20.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._ht_info_close_20.onclick=function (e) {
+			player.setVariableValue('startscreen', false);
+		}
+		me._ht_info_close_20.ggUpdatePosition=function (useTransition) {
+		}
+		me._startscreen.appendChild(me._ht_info_close_20);
+		me.divSkin.appendChild(me._startscreen);
+		el=me._howtostartscreen=document.createElement('div');
+		el.ggId="howToStartScreen";
+		el.ggDx=0;
+		el.ggDy=0;
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_container ";
+		el.ggType='container';
+		hs ='';
+		hs+='height : 40%;';
+		hs+='left : -10000px;';
+		hs+='position : absolute;';
+		hs+='top : -10000px;';
+		hs+='visibility : inherit;';
+		hs+='width : 40%;';
+		hs+='pointer-events:none;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		me._howtostartscreen.ggIsActive=function() {
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			return player.getCurrentNode();
+		}
+		me._howtostartscreen.logicBlock_size = function() {
+			var newLogicStateSize;
+			if (
+				((player.getIsMobile() == true)) || 
+				((player.getViewerSize().width < 450))
+			)
+			{
+				newLogicStateSize = 0;
+			}
+			else {
+				newLogicStateSize = -1;
+			}
+			if (me._howtostartscreen.ggCurrentLogicStateSize != newLogicStateSize) {
+				me._howtostartscreen.ggCurrentLogicStateSize = newLogicStateSize;
+				me._howtostartscreen.style[domTransition]='width 0s, height 0s';
+				if (me._howtostartscreen.ggCurrentLogicStateSize == 0) {
+					me._howtostartscreen.style.width='85%';
+					me._howtostartscreen.style.height='70%';
+					skin.updateSize(me._howtostartscreen);
+				}
+				else {
+					me._howtostartscreen.style.width='40%';
+					me._howtostartscreen.style.height='40%';
+					skin.updateSize(me._howtostartscreen);
+				}
+			}
+		}
+		me._howtostartscreen.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				((player.getVariableValue('startHelpScreen') == false))
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me._howtostartscreen.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._howtostartscreen.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._howtostartscreen.style[domTransition]='width 0s, height 0s';
+				if (me._howtostartscreen.ggCurrentLogicStateVisible == 0) {
+					me._howtostartscreen.style.visibility="hidden";
+					me._howtostartscreen.ggVisible=false;
+				}
+				else {
+					me._howtostartscreen.style.visibility=(Number(me._howtostartscreen.style.opacity)>0||!me._howtostartscreen.style.opacity)?'inherit':'hidden';
+					me._howtostartscreen.ggVisible=true;
+				}
+			}
+		}
+		me._howtostartscreen.ggUpdatePosition=function (useTransition) {
+			if (useTransition==='undefined') {
+				useTransition = false;
+			}
+			if (!useTransition) {
+				this.style[domTransition]='none';
+			}
+			if (this.parentNode) {
+				var pw=this.parentNode.clientWidth;
+				var w=this.offsetWidth;
+					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
+				var ph=this.parentNode.clientHeight;
+				var h=this.offsetHeight;
+					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
+			}
+		}
+		el=me._informationbg_2=document.createElement('div');
+		el.ggId="informationbg_2";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_rectangle ";
+		el.ggType='rectangle';
+		hs ='';
+		hs+=cssPrefix + 'border-radius : 2px;';
+		hs+='border-radius : 2px;';
+		hs+='background : #003056;';
+		hs+='border : 1px solid #ffffff;';
+		hs+='cursor : default;';
+		hs+='height : 100%;';
+		hs+='left : 0px;';
+		hs+='position : absolute;';
+		hs+='top : 0px;';
+		hs+='visibility : inherit;';
+		hs+='width : 100%;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		me._informationbg_2.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._informationbg_2.ggUpdatePosition=function (useTransition) {
+		}
+		me._howtostartscreen.appendChild(me._informationbg_2);
+		el=me._info_text_body_2=document.createElement('div');
+		els=me._info_text_body_2__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="info_text_body_2";
+		el.ggDx=0;
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_text ";
+		el.ggType='text';
+		hs ='';
+		hs+='bottom : 20px;';
+		hs+='height : 60%;';
+		hs+='left : -10000px;';
+		hs+='position : absolute;';
+		hs+='visibility : inherit;';
+		hs+='width : 90%;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		hs ='position:absolute;';
+		hs += 'box-sizing: border-box;';
+		hs+='cursor: default;';
+		hs+='left: 0px;';
+		hs+='bottom:  0px;';
+		hs+='width: 100%;';
+		hs+='height: 100%;';
+		hs+='border: 0px solid #000000;';
+		hs+='color: rgba(255,255,255,1);';
+		hs+='text-align: left;';
+		hs+='white-space: pre-wrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		hs+='overflow-y: auto;';
+		els.setAttribute('style',hs);
+		els.innerHTML="Click and drag to look around.<br\/><br\/>There are 3 multi colored eggs hidden in each area.<br\/><br\/>There is also one golden egg hidden in one of these areas.<br\/><br\/>Find all the eggs for a chance to win some awesome prizes!<br\/>";
+		el.appendChild(els);
+		me._info_text_body_2.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._info_text_body_2.ggUpdatePosition=function (useTransition) {
+			if (useTransition==='undefined') {
+				useTransition = false;
+			}
+			if (!useTransition) {
+				this.style[domTransition]='none';
+			}
+			if (this.parentNode) {
+				var pw=this.parentNode.clientWidth;
+				var w=this.offsetWidth;
+					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
+			}
+		}
+		me._howtostartscreen.appendChild(me._info_text_body_2);
+		el=me._info_title_2=document.createElement('div');
+		els=me._info_title_2__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="info_title_2";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_text info_title";
+		el.ggType='text';
+		hs ='';
+		hs+='height : 20px;';
+		hs+='left : 12px;';
+		hs+='position : absolute;';
+		hs+='top : 11px;';
+		hs+='visibility : inherit;';
+		hs+='width : 100%;';
+		hs+='pointer-events:auto;';
+		hs+='font-weight: bold;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		hs ='position:absolute;';
+		hs += 'box-sizing: border-box;';
+		hs+='cursor: default;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
+		hs+='width: 100%;';
+		hs+='height: 20px;';
+		hs+='border: 0px solid #000000;';
+		hs+='color: rgba(255,255,255,1);';
+		hs+='text-align: left;';
+		hs+='white-space: nowrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		els.setAttribute('style',hs);
+		els.innerHTML="Great Eggscape 2021";
+		el.appendChild(els);
 		me._info_title_2.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
@@ -16775,7 +17114,7 @@ pano.setVariableValue("random_ad", randomNumber+1)
 		}
 		me._info_title_2.ggUpdatePosition=function (useTransition) {
 		}
-		me._startscreen.appendChild(me._info_title_2);
+		me._howtostartscreen.appendChild(me._info_title_2);
 		el=me._link_text_2=document.createElement('div');
 		els=me._link_text_2__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
@@ -16829,7 +17168,7 @@ pano.setVariableValue("random_ad", randomNumber+1)
 		}
 		me._link_text_2.ggUpdatePosition=function (useTransition) {
 		}
-		me._startscreen.appendChild(me._link_text_2);
+		me._howtostartscreen.appendChild(me._link_text_2);
 		el=me._ht_info_close_2=document.createElement('div');
 		els=me._ht_info_close_2__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
@@ -16867,12 +17206,12 @@ pano.setVariableValue("random_ad", randomNumber+1)
 			return player.getCurrentNode();
 		}
 		me._ht_info_close_2.onclick=function (e) {
-			player.setVariableValue('startscreen', false);
+			player.setVariableValue('startHelpScreen', false);
 		}
 		me._ht_info_close_2.ggUpdatePosition=function (useTransition) {
 		}
-		me._startscreen.appendChild(me._ht_info_close_2);
-		me.divSkin.appendChild(me._startscreen);
+		me._howtostartscreen.appendChild(me._ht_info_close_2);
+		me.divSkin.appendChild(me._howtostartscreen);
 		el=me._playmedia=document.createElement('div');
 		el.ggId="PlayMedia";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
@@ -32223,6 +32562,7 @@ gtag('config', ua_id);
 	me._enter_compitition.logicBlock_size();
 	me._itemfound.logicBlock_size();
 	me._startscreen.logicBlock_size();
+	me._howtostartscreen.logicBlock_size();
 	me._playmedia.logicBlock_position();
 	me._loading_multires.logicBlock_visible();
 	me._fullscreen.logicBlock_alpha();
@@ -32320,6 +32660,7 @@ gtag('config', ua_id);
 	me._itemfound.logicBlock_visible();
 	me._info_text_body_1.logicBlock_text();
 	me._startscreen.logicBlock_visible();
+	me._howtostartscreen.logicBlock_visible();
 	me._playmedia.logicBlock_visible();
 	me._init_ga.logicBlock_visible();
 	me._tt_show_controller.logicBlock_position();
@@ -32338,13 +32679,13 @@ gtag('config', ua_id);
 	me._tt_projection0.logicBlock_text();
 	me._tt_projection.logicBlock_text();
 	me._enter_vr.logicBlock_visible();
-	player.addListener('sizechanged', function(args) { me._screentint.logicBlock_alpha();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu.logicBlock_alpha();me._thumbnail_menu_mobile.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_alpha();me._google_prize_text_desktop.logicBlock_visible();me._google_prize_text_mobile2.logicBlock_visible();me._map_popup_desktop.logicBlock_visible();me._svg_2.logicBlock_visible();me._eggscape.logicBlock_position();me._branding_mobile.logicBlock_visible();me._branding_desktop.logicBlock_visible();me._tt_thumbnail_open.logicBlock_text();me._filters_desktop.logicBlock_visible();me._filters_mobile.logicBlock_visible();me._sound_on_off.logicBlock_position();me._video_popup_youtube.logicBlock_size();me._information.logicBlock_size();me._info_text_body.logicBlock_position();me._info_text_body.logicBlock_size();me._infoimage.logicBlock_size();me._enter_compitition.logicBlock_size();me._itemfound.logicBlock_size();me._startscreen.logicBlock_size();me._playmedia.logicBlock_position(); });
+	player.addListener('sizechanged', function(args) { me._screentint.logicBlock_alpha();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu.logicBlock_alpha();me._thumbnail_menu_mobile.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_alpha();me._google_prize_text_desktop.logicBlock_visible();me._google_prize_text_mobile2.logicBlock_visible();me._map_popup_desktop.logicBlock_visible();me._svg_2.logicBlock_visible();me._eggscape.logicBlock_position();me._branding_mobile.logicBlock_visible();me._branding_desktop.logicBlock_visible();me._tt_thumbnail_open.logicBlock_text();me._filters_desktop.logicBlock_visible();me._filters_mobile.logicBlock_visible();me._sound_on_off.logicBlock_position();me._video_popup_youtube.logicBlock_size();me._information.logicBlock_size();me._info_text_body.logicBlock_position();me._info_text_body.logicBlock_size();me._infoimage.logicBlock_size();me._enter_compitition.logicBlock_size();me._itemfound.logicBlock_size();me._startscreen.logicBlock_size();me._howtostartscreen.logicBlock_size();me._playmedia.logicBlock_position(); });
 	player.addListener('tilesready', function(args) { me._loading_multires.logicBlock_visible(); });
 	player.addListener('tilesrequested', function(args) { me._loading_multires.logicBlock_visible(); });
 	player.addListener('fullscreenenter', function(args) { me._fullscreen.logicBlock_alpha();me._fullscreen_off.logicBlock_alpha();me._tt_fullscreen.logicBlock_text(); });
 	player.addListener('fullscreenexit', function(args) { me._fullscreen.logicBlock_alpha();me._fullscreen_off.logicBlock_alpha();me._tt_fullscreen.logicBlock_text(); });
-	player.addListener('changenode', function(args) { me._show_controller_button.logicBlock_position();me._loading_multires.logicBlock_visible();me._screentint.logicBlock_alpha();me._thumbnail_menu.logicBlock_position();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu.logicBlock_alpha();me._thumbnail_menu_mobile.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_alpha();me._loading.logicBlock_visible();me._web_page.logicBlock_visible();me._userdata.logicBlock_visible();me.__360image_gyro.logicBlock_visible();me.__360image.logicBlock_position();me.__360image.logicBlock_scaling();me._phone2.logicBlock_scaling();me._phone3.logicBlock_scaling();me._close.logicBlock_visible();me._google_prize_text_desktop.logicBlock_text();me._google_prize_text_mobile.logicBlock_text();me._google_prize_text_mobile2.logicBlock_text();me._map_popup_desktop.logicBlock_visible();me._floorplan.logicBlock_scaling();me._floorplan.logicBlock_alpha();me._page3.logicBlock_visible();me._ht_hidden_3_i.logicBlock_visible();me._ht_hidden_6_i.logicBlock_visible();me._ht_hidden_9_i.logicBlock_visible();me._page2.logicBlock_visible();me._ht_hidden_2_i.logicBlock_visible();me._ht_hidden_5_i.logicBlock_visible();me._ht_hidden_8_i.logicBlock_visible();me._page1.logicBlock_visible();me._ht_hidden_1_i.logicBlock_visible();me._ht_hidden_4_i.logicBlock_visible();me._ht_hidden_7_i.logicBlock_visible();me._ht_hidden_10_i.logicBlock_visible();me._external5.logicBlock_visible();me._external4.logicBlock_visible();me._external3.logicBlock_visible();me._external2.logicBlock_visible();me._external_5.logicBlock_visible();me._external_4.logicBlock_visible();me._external_3.logicBlock_visible();me._external_2.logicBlock_visible();me._external_1.logicBlock_visible();me._controller.logicBlock_position();me._controller.logicBlock_alpha();me._controller_slider.logicBlock_position();me._controller_slider.logicBlock_alpha();me._enable_map.logicBlock_position();me._enable_map.logicBlock_visible();me._tt_show_map.logicBlock_text();me._enter_vr.logicBlock_position();me._fullscreen_buttons.logicBlock_position();me._fullscreen_buttons.logicBlock_visible();me._gyro.logicBlock_position();me._gyro.logicBlock_visible();me._gyro_on.logicBlock_alpha();me._gyro_off.logicBlock_alpha();me._tt_gyro.logicBlock_text();me._projection_buttons0.logicBlock_position();me._projection_buttons0.logicBlock_visible();me._projection_buttons.logicBlock_position();me._projection_buttons.logicBlock_visible();me._thumbnail.logicBlock_position();me._thumbnail.logicBlock_visible();me._tt_thumbnail_open.logicBlock_text();me._info.logicBlock_position();me._info.logicBlock_visible();me._autorotate_buttons.logicBlock_position();me._autorotate_buttons.logicBlock_visible();me._autorotate_start.logicBlock_alpha();me._autorotate_stop.logicBlock_alpha();me._tt_rotate.logicBlock_text();me._zoomout.logicBlock_visible();me._zoomin.logicBlock_visible();me._filters_desktop.logicBlock_visible();me._fl_hotels_off0.logicBlock_visible();me._fl_shopping_off0.logicBlock_visible();me._fl_attractions_off0.logicBlock_visible();me._text_10.logicBlock_text();me._filters_mobile.logicBlock_visible();me._fl_hotels_off.logicBlock_visible();me._fl_shopping_off.logicBlock_visible();me._fl_attractions_off.logicBlock_visible();me._text_1.logicBlock_text();me._sound_on_5.logicBlock_visible();me._sound_on_4.logicBlock_visible();me._sound_on_3.logicBlock_visible();me._sound_on_2.logicBlock_visible();me._sound_on_1.logicBlock_visible();me._sound_on_0.logicBlock_visible();me._sound_up.logicBlock_alpha();me._sound_down.logicBlock_alpha();me._video_popup_youtube.logicBlock_visible();me._popup_video_youtube.logicBlock_visible();me._information.logicBlock_visible();me._info_text_body.logicBlock_position();me._info_text_body.logicBlock_size();me._infoimage.logicBlock_visible();me._enter_compitition.logicBlock_visible();me._itemfound.logicBlock_visible();me._info_text_body_1.logicBlock_text();me._startscreen.logicBlock_visible();me._playmedia.logicBlock_visible();me._init_ga.logicBlock_visible(); });
-	player.addListener('configloaded', function(args) { me._tt_show_controller.logicBlock_position();me._thumbnail_menu.logicBlock_position();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_position();me._thumbnail_menu_mobile.logicBlock_visible();me.__360image_gyro.logicBlock_visible();me._tt_show_map.logicBlock_position();me._tt_enter_vr.logicBlock_position();me._fullscreen_buttons.logicBlock_visible();me._tt_fullscreen.logicBlock_position();me._gyro.logicBlock_visible();me._tt_gyro.logicBlock_position();me._tt_projection0.logicBlock_position();me._tt_projection.logicBlock_position();me._thumbnail.logicBlock_visible();me._tt_thumbnail_open.logicBlock_position();me._tt_userdata.logicBlock_position();me._tt_rotate.logicBlock_position();me._tt_zoomout.logicBlock_position();me._tt_zoomin.logicBlock_position();me._information.logicBlock_size();me._enter_compitition.logicBlock_size();me._itemfound.logicBlock_size();me._startscreen.logicBlock_size(); });
+	player.addListener('changenode', function(args) { me._show_controller_button.logicBlock_position();me._loading_multires.logicBlock_visible();me._screentint.logicBlock_alpha();me._thumbnail_menu.logicBlock_position();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu.logicBlock_alpha();me._thumbnail_menu_mobile.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_alpha();me._loading.logicBlock_visible();me._web_page.logicBlock_visible();me._userdata.logicBlock_visible();me.__360image_gyro.logicBlock_visible();me.__360image.logicBlock_position();me.__360image.logicBlock_scaling();me._phone2.logicBlock_scaling();me._phone3.logicBlock_scaling();me._close.logicBlock_visible();me._google_prize_text_desktop.logicBlock_text();me._google_prize_text_mobile.logicBlock_text();me._google_prize_text_mobile2.logicBlock_text();me._map_popup_desktop.logicBlock_visible();me._floorplan.logicBlock_scaling();me._floorplan.logicBlock_alpha();me._page3.logicBlock_visible();me._ht_hidden_3_i.logicBlock_visible();me._ht_hidden_6_i.logicBlock_visible();me._ht_hidden_9_i.logicBlock_visible();me._page2.logicBlock_visible();me._ht_hidden_2_i.logicBlock_visible();me._ht_hidden_5_i.logicBlock_visible();me._ht_hidden_8_i.logicBlock_visible();me._page1.logicBlock_visible();me._ht_hidden_1_i.logicBlock_visible();me._ht_hidden_4_i.logicBlock_visible();me._ht_hidden_7_i.logicBlock_visible();me._ht_hidden_10_i.logicBlock_visible();me._external5.logicBlock_visible();me._external4.logicBlock_visible();me._external3.logicBlock_visible();me._external2.logicBlock_visible();me._external_5.logicBlock_visible();me._external_4.logicBlock_visible();me._external_3.logicBlock_visible();me._external_2.logicBlock_visible();me._external_1.logicBlock_visible();me._controller.logicBlock_position();me._controller.logicBlock_alpha();me._controller_slider.logicBlock_position();me._controller_slider.logicBlock_alpha();me._enable_map.logicBlock_position();me._enable_map.logicBlock_visible();me._tt_show_map.logicBlock_text();me._enter_vr.logicBlock_position();me._fullscreen_buttons.logicBlock_position();me._fullscreen_buttons.logicBlock_visible();me._gyro.logicBlock_position();me._gyro.logicBlock_visible();me._gyro_on.logicBlock_alpha();me._gyro_off.logicBlock_alpha();me._tt_gyro.logicBlock_text();me._projection_buttons0.logicBlock_position();me._projection_buttons0.logicBlock_visible();me._projection_buttons.logicBlock_position();me._projection_buttons.logicBlock_visible();me._thumbnail.logicBlock_position();me._thumbnail.logicBlock_visible();me._tt_thumbnail_open.logicBlock_text();me._info.logicBlock_position();me._info.logicBlock_visible();me._autorotate_buttons.logicBlock_position();me._autorotate_buttons.logicBlock_visible();me._autorotate_start.logicBlock_alpha();me._autorotate_stop.logicBlock_alpha();me._tt_rotate.logicBlock_text();me._zoomout.logicBlock_visible();me._zoomin.logicBlock_visible();me._filters_desktop.logicBlock_visible();me._fl_hotels_off0.logicBlock_visible();me._fl_shopping_off0.logicBlock_visible();me._fl_attractions_off0.logicBlock_visible();me._text_10.logicBlock_text();me._filters_mobile.logicBlock_visible();me._fl_hotels_off.logicBlock_visible();me._fl_shopping_off.logicBlock_visible();me._fl_attractions_off.logicBlock_visible();me._text_1.logicBlock_text();me._sound_on_5.logicBlock_visible();me._sound_on_4.logicBlock_visible();me._sound_on_3.logicBlock_visible();me._sound_on_2.logicBlock_visible();me._sound_on_1.logicBlock_visible();me._sound_on_0.logicBlock_visible();me._sound_up.logicBlock_alpha();me._sound_down.logicBlock_alpha();me._video_popup_youtube.logicBlock_visible();me._popup_video_youtube.logicBlock_visible();me._information.logicBlock_visible();me._info_text_body.logicBlock_position();me._info_text_body.logicBlock_size();me._infoimage.logicBlock_visible();me._enter_compitition.logicBlock_visible();me._itemfound.logicBlock_visible();me._info_text_body_1.logicBlock_text();me._startscreen.logicBlock_visible();me._howtostartscreen.logicBlock_visible();me._playmedia.logicBlock_visible();me._init_ga.logicBlock_visible(); });
+	player.addListener('configloaded', function(args) { me._tt_show_controller.logicBlock_position();me._thumbnail_menu.logicBlock_position();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_position();me._thumbnail_menu_mobile.logicBlock_visible();me.__360image_gyro.logicBlock_visible();me._tt_show_map.logicBlock_position();me._tt_enter_vr.logicBlock_position();me._fullscreen_buttons.logicBlock_visible();me._tt_fullscreen.logicBlock_position();me._gyro.logicBlock_visible();me._tt_gyro.logicBlock_position();me._tt_projection0.logicBlock_position();me._tt_projection.logicBlock_position();me._thumbnail.logicBlock_visible();me._tt_thumbnail_open.logicBlock_position();me._tt_userdata.logicBlock_position();me._tt_rotate.logicBlock_position();me._tt_zoomout.logicBlock_position();me._tt_zoomin.logicBlock_position();me._information.logicBlock_size();me._enter_compitition.logicBlock_size();me._itemfound.logicBlock_size();me._startscreen.logicBlock_size();me._howtostartscreen.logicBlock_size(); });
 	player.addListener('projectionchanged', function(args) { me._tt_projection0.logicBlock_text();me._tt_projection.logicBlock_text(); });
 	player.addListener('autorotatechanged', function(args) { me._autorotate_start.logicBlock_alpha();me._autorotate_stop.logicBlock_alpha();me._tt_rotate.logicBlock_text(); });
 	player.addListener('gyroavailable', function(args) { me._gyro.logicBlock_visible(); });
@@ -32385,6 +32726,7 @@ gtag('config', ua_id);
 	player.addListener('varchanged_viz_foundall', function(args) { me._enter_compitition.logicBlock_visible(); });
 	player.addListener('varchanged_vis_item_found', function(args) { me._itemfound.logicBlock_visible(); });
 	player.addListener('varchanged_startscreen', function(args) { me._startscreen.logicBlock_visible(); });
+	player.addListener('varchanged_startHelpScreen', function(args) { me._howtostartscreen.logicBlock_visible(); });
 	player.addListener('varchanged_UA_ID', function(args) { me._init_ga.logicBlock_visible(); });
 	player.addListener('varchanged_UA_category', function(args) { me._init_ga.logicBlock_visible(); });
 	player.addListener('varchanged_pos_360image', function(args) { me.__360image.logicBlock_position();me.__360image.logicBlock_scaling();me._phone2.logicBlock_scaling();me._phone3.logicBlock_scaling(); });
