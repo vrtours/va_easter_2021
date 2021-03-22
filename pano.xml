@@ -20,11 +20,12 @@
       <label width="180" backgroundalpha="1" border="1" bordercolor="0x000000" enabled="1" background="1" height="20" wordwrap="1" textcolor="0x000000" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1"/>
       <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1"/>
       <hotspot title="" target="_blank" url="" id="Point01" tilt="-90" pan="0" skinid="ht_logo" description=""/>
-      <hotspot title="V&amp;A Busker Spot" target="" url="" id="Point05" tilt="-6.46" pan="-309.78" skinid="ht_info" description="Busking is performance art that takes place on the street for voluntary donations – and is practiced all over the world. Contributing to the vibrant atmosphere, it has been an integral part of the V&amp;A Waterfront since inception, some 30 years ago. &#xa;At The V&amp;A Waterfront however, the busking programme is more than just performing for tips. It is an entrepreneurship development and incubation programme, focused on all types of performers; from musicians and magicians, to freestyle footballers and mime’s alike. The main goal of the programme is to create a platform for young performers to develop their craft and become successful entrepreneurs."/>
+      <hotspot title="V&amp;A Busker Spot" target="" url="" id="Point05" tilt="-6.42" pan="-309.8" skinid="ht_info" description="Busking is performance art that takes place on the street for voluntary donations – and is practiced all over the world. Contributing to the vibrant atmosphere, it has been an integral part of the V&amp;A Waterfront since inception, some 30 years ago. &#xa;At The V&amp;A Waterfront however, the busking programme is more than just performing for tips. It is an entrepreneurship development and incubation programme, focused on all types of performers; from musicians and magicians, to freestyle footballers and mime’s alike. The main goal of the programme is to create a platform for young performers to develop their craft and become successful entrepreneurs."/>
       <hotspot distance="22.7045" title="Amphitheatre" target="$fwd" url="{node9}" id="Point01" tilt="0" pan="19.5043" skinid="ht_node" description=""/>
-      <hotspot title="" target="_blank" url="" id="Egg_1_1_1" tilt="20.49" pan="-287.75" skinid="ht_hidden_1" description=""/>
+      <hotspot title="" target="_blank" url="" id="Egg_1_1_1" tilt="20.37" pan="-288.17" skinid="ht_hidden_1" description=""/>
       <hotspot title="" target="_blank" url="" id="Egg_1_2_4" tilt="5.24" pan="-67.51" skinid="ht_hidden_4" description=""/>
       <hotspot title="" target="_blank" url="" id="Egg_1_3_7" tilt="3.21" pan="-161.19" skinid="ht_hidden_7" description=""/>
+      <hotspot title="&lt;a href=&quot;https://capewheel.co.za/&quot;  target=&quot;_blank&quot;>The Cape Big Wheel&lt;/a>" target="" url="" id="Point05" tilt="41.29" pan="-190.7" skinid="ht_info" description="DID YOU KNOW? The Cape Big Wheel is a giant observation wheel that offers a spectacular 360 panoramic view of Cape Town from the vibrant V&amp;A Waterfront precinct. &#xa;Your viewing experience across the Mother City includes Table Mountain, Robben Island, Cape Town City skyline, Paarl Mountains, and the Cape Town Stadium. WOW! &#xa;The Cape Wheel offers 30 fully enclosed air conditioned cabins that will take you 40 metres above the ground in safety and comfort on the four revolution ride.&#xa;"/>
     </hotspots>
     <media>
       <sound nodechangekeep="0" field="90.000" tiltsize="10.000" mode="1" loop="1" level="1.000" ambientlevel="0.000" startmutedmobile="0" id="Element01" tilt="-12.590" pan="-313.020" pansize="10.000">
@@ -63,7 +64,7 @@
       <hotspot title="Hakuna Matata - Hassan'Adas | Cape Town Jazzathon 2020 Festival Live Performance" target="" url="z5wsZV_GwDY" id="Point04" tilt="-5.22" pan="-266.29" skinid="ht_video_youtube" description=""/>
       <hotspot distance="45.836" title="Flagpole Terrace" target="$fwd" url="{node32}" id="Point01" tilt="1.41" pan="-181.286" skinid="ht_node" description=""/>
       <hotspot distance="22.7045" title="Big Wheel" target="$fwd" url="{node6}" id="Point02" tilt="-5.15" pan="33.6043" skinid="ht_node" description=""/>
-      <hotspot title="" target="_blank" url="" id="Egg_2_1_2" tilt="5.27" pan="-25.35" skinid="ht_hidden_2" description=""/>
+      <hotspot title="" target="_blank" url="" id="Egg_2_1_2" tilt="3.82" pan="-25.72" skinid="ht_hidden_2" description=""/>
       <hotspot title="" target="_blank" url="" id="Egg_2_2_5" tilt="63.35" pan="-95.53" skinid="ht_hidden_5" description=""/>
       <hotspot title="" target="_blank" url="" id="Egg_2_3_8" tilt="-1.21" pan="-211.09" skinid="ht_hidden_8" description=""/>
     </hotspots>
@@ -98,9 +99,10 @@
       <hotspot title="" target="_blank" url="" id="Point01" tilt="-90" pan="0" skinid="ht_logo" description=""/>
       <hotspot distance="45.836" title="Amphitheatre" target="$fwd" url="{node9}" id="Point01" tilt="0" pan="218.084" skinid="ht_node" description=""/>
       <hotspot title="" target="_blank" url="" id="Egg_3_1_3" tilt="28.43" pan="-266.97" skinid="ht_hidden_3" description=""/>
-      <hotspot title="" target="_blank" url="" id="Egg_3_2_6" tilt="30.17" pan="-113.33" skinid="ht_hidden_6" description=""/>
-      <hotspot title="" target="_blank" url="" id="Egg_3_3_9" tilt="-3.83" pan="-53.56" skinid="ht_hidden_9" description=""/>
-      <hotspot title="" target="_blank" url="" id="Egg_3_4_10" tilt="13.63" pan="-207.59" skinid="ht_hidden_10" description=""/>
+      <hotspot title="" target="_blank" url="" id="Egg_3_2_6" tilt="30.54" pan="-113.13" skinid="ht_hidden_6" description=""/>
+      <hotspot title="" target="_blank" url="" id="Egg_3_3_9" tilt="-4.17" pan="-50.24" skinid="ht_hidden_9" description=""/>
+      <hotspot title="" target="_blank" url="" id="Egg_3_4_10" tilt="13.78" pan="-207.66" skinid="ht_hidden_10" description=""/>
+      <hotspot title="Flagpole Terrace" target="" url="" id="Point03" tilt="-8.53" pan="-135.23" skinid="ht_info" description="Flagpole Terrace gives you a glimpse into the workings of the harbour and offers a great meditative space to take a break from your Waterfront shopping experience. &#xa;From here you can take a walk into the outside areas, visit your favourite restaurant or peer out onto the pier.&#xa;"/>
     </hotspots>
     <media/>
     <transition blendtime="1" zoomin="0" enabled="1" zoomoutpause="1" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomfov="20" zoomspeed="2" zoomout="0"/>
