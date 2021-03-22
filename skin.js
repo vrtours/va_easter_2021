@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.8/17956
 // Filename: Waterfront_Easter.ggsk
-// Generated 2021-03-22T12:01:49
+// Generated 2021-03-22T12:18:19
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -6617,7 +6617,7 @@ function pano2vrSkin(player,base) {
 			return player.getCurrentNode();
 		}
 		me._externaleaster.onclick=function (e) {
-			player.openUrl("https:\/\/www.myistore.co.za\/","_blank");
+			player.openUrl("https:\/\/www.waterfront.co.za\/leisure\/offers\/","_blank");
 			gtag('event', 'Advert Clicked', {
   'event_category': player.getVariableValue('UA_category'),
   'event_label': 'https://www.myistore.co.za/'
@@ -7459,7 +7459,7 @@ function pano2vrSkin(player,base) {
 			return player.getCurrentNode();
 		}
 		me._easter.onclick=function (e) {
-			player.openUrl("https:\/\/giftvouchers.waterfront.co.za\/group\/vawaterfront\/vouchers\/list?cat=all","_blank");
+			player.openUrl("https:\/\/www.waterfront.co.za\/leisure\/offers\/","_blank");
 			gtag('event', 'Advert Clicked', {
   'event_category': player.getVariableValue('UA_category'),
   'event_label': 'https://giftvouchers.waterfront.co.za/group/vawaterfront/vouchers/list?cat=all'
