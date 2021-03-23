@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style>.cls-1{isolation:isolate;}.cls-2{fill:url(#Sfumatura_senza_nome_31);}.cls-3{fill:#ec5a55;}.cls-4{fill:#065bae;}.cls-5{fill:#f784b0;}.cls-6{opacity:0.8;}.cls-7,.cls-9{fill:#fff;}.cls-8{fill:#e6e6e6;opacity:0.83;mix-blend-mode:multiply;}.cls-9{opacity:0.25;}.cls-10{fill:#f2f2f2;opacity:0.2;}.cls-11{fill:#002f50;}</style>
-  <radialGradient r="253.8" cx="69.68" gradientTransform="matrix(-1, 0, 0, 1, 310.87, 0)" gradientUnits="userSpaceOnUse" id="Sfumatura_senza_nome_31" cy="207.23">
+  <radialGradient id="Sfumatura_senza_nome_31" cx="69.68" gradientUnits="userSpaceOnUse" r="253.8" gradientTransform="matrix(-1, 0, 0, 1, 310.87, 0)" cy="207.23">
    <stop offset="0" stop-color="#63cebc"/>
    <stop offset="0.35" stop-color="#60ccba"/>
    <stop offset="0.64" stop-color="#55c5b3"/>
@@ -25,17 +25,17 @@
    <path d="M208.44,451.38l.24,0c113.79-22,179.7-149.56,151.51-304.71a583.25,583.25,0,0,0-14.77-63.24h0l.07.09c38,46,68.35,116.22,74,195.43C427.62,394,362.84,482.35,259.87,484.72h-.22c-37.88.87-70.74-9.51-97.11-28.93C176.71,456.43,194.07,454.16,208.44,451.38Z" class="cls-8"/>
    <path d="M243.95,483.46h.23c83.54-5.14,150-68.25,173.72-151.61-12,88.22-71.53,150.9-158,152.89h-.22a181.48,181.48,0,0,1-23.11-1C239,483.7,241.46,483.61,243.95,483.46Z" class="cls-9"/>
    <path d="M152.21,267.29c-13.27-7.6-22.75-23.12-26.7-43.69-5-26-.72-57.14,11.72-85.36,12.86-29.16,30.95-53,50.93-67.17,18.49-13.1,36.46-16.38,49.3-9,24.95,14.29,36,71.75,10.61,139.74-10.46,28-28.41,50.77-49.26,62.61-16.72,9.52-33.25,10.56-46.54,2.94Z" class="cls-10"/>
-   <ellipse ry="6.2" class="cls-11" cx="256.55" rx="8.94" transform="translate(-0.13 0.3) rotate(-0.07)" cy="115.89"/>
-   <ellipse ry="6.2" class="cls-11" cx="256.55" rx="8.94" transform="translate(-0.13 0.3) rotate(-0.07)" cy="116"/>
-   <ellipse ry="6.2" class="cls-11" cx="205.74" rx="8.94" transform="translate(-0.5 0.24) rotate(-0.07)" cy="432.35"/>
-   <ellipse ry="6.2" class="cls-11" cx="307.26" rx="8.94" transform="translate(-0.5 0.35) rotate(-0.07)" cy="432.35"/>
-   <ellipse ry="6.2" class="cls-7" cx="202.85" rx="8.94" transform="translate(-0.21 0.23) rotate(-0.07)" cy="184.43"/>
-   <ellipse ry="6.2" class="cls-7" cx="150.08" rx="8.94" transform="translate(-0.45 0.17) rotate(-0.07)" cy="391.5"/>
-   <ellipse ry="6.2" class="cls-7" cx="256.87" rx="8.94" transform="translate(-0.45 0.3) rotate(-0.07)" cy="391.5"/>
-   <ellipse ry="6.2" class="cls-7" cx="360.12" rx="8.94" transform="translate(-0.45 0.42) rotate(-0.07)" cy="391.5"/>
-   <ellipse ry="6.2" class="cls-7" cx="306.98" rx="8.94" transform="translate(-0.21 0.35) rotate(-0.07)" cy="184.43"/>
-   <ellipse ry="6.2" class="cls-11" cx="162.55" rx="8.94" transform="translate(-0.13 0.19) rotate(-0.07)" cy="115.89"/>
-   <ellipse ry="6.2" class="cls-11" cx="354.13" rx="8.94" transform="translate(-0.13 0.41) rotate(-0.07)" cy="115.89"/>
+   <ellipse transform="translate(-0.13 0.3) rotate(-0.07)" cx="256.55" rx="8.94" class="cls-11" ry="6.2" cy="115.89"/>
+   <ellipse transform="translate(-0.13 0.3) rotate(-0.07)" cx="256.55" rx="8.94" class="cls-11" ry="6.2" cy="116"/>
+   <ellipse transform="translate(-0.5 0.24) rotate(-0.07)" cx="205.74" rx="8.94" class="cls-11" ry="6.2" cy="432.35"/>
+   <ellipse transform="translate(-0.5 0.35) rotate(-0.07)" cx="307.26" rx="8.94" class="cls-11" ry="6.2" cy="432.35"/>
+   <ellipse transform="translate(-0.21 0.23) rotate(-0.07)" cx="202.85" rx="8.94" class="cls-7" ry="6.2" cy="184.43"/>
+   <ellipse transform="translate(-0.45 0.17) rotate(-0.07)" cx="150.08" rx="8.94" class="cls-7" ry="6.2" cy="391.5"/>
+   <ellipse transform="translate(-0.45 0.3) rotate(-0.07)" cx="256.87" rx="8.94" class="cls-7" ry="6.2" cy="391.5"/>
+   <ellipse transform="translate(-0.45 0.42) rotate(-0.07)" cx="360.12" rx="8.94" class="cls-7" ry="6.2" cy="391.5"/>
+   <ellipse transform="translate(-0.21 0.35) rotate(-0.07)" cx="306.98" rx="8.94" class="cls-7" ry="6.2" cy="184.43"/>
+   <ellipse transform="translate(-0.13 0.19) rotate(-0.07)" cx="162.55" rx="8.94" class="cls-11" ry="6.2" cy="115.89"/>
+   <ellipse transform="translate(-0.13 0.41) rotate(-0.07)" cx="354.13" rx="8.94" class="cls-11" ry="6.2" cy="115.89"/>
   </g>
  </g>
 </svg>

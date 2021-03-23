@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style>.cls-1{mask:url(#mask);filter:url(#luminosity-noclip-2);}.cls-2,.cls-9{mix-blend-mode:multiply;}.cls-2{fill:url(#linear-gradient);}.cls-3{isolation:isolate;}.cls-4{fill:#fff;}.cls-5{fill:#065bae;}.cls-6{fill:#5cb9ab;}.cls-7{mask:url(#mask-2);}.cls-8{opacity:0.4;mix-blend-mode:lighten;fill:url(#linear-gradient-2);}.cls-9{fill:#e6e6e6;opacity:0.83;}.cls-10{filter:url(#luminosity-noclip);}</style>
-  <filter x="114.98" filterUnits="userSpaceOnUse" height="32766" y="-8448" id="luminosity-noclip" color-interpolation-filters="sRGB" width="167.76">
-   <feFlood result="bg" flood-color="#fff"/>
-   <feBlend in="SourceGraphic" in2="bg"/>
+  <filter id="luminosity-noclip" x="114.98" height="32766" y="-8448" width="167.76" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+   <feFlood flood-color="#fff" result="bg"/>
+   <feBlend in2="bg" in="SourceGraphic"/>
   </filter>
-  <mask x="114.98" height="32766" y="-8448" id="mask" width="167.76" maskUnits="userSpaceOnUse">
+  <mask id="mask" maskUnits="userSpaceOnUse" x="114.98" height="32766" y="-8448" width="167.76">
    <g class="cls-10"/>
   </mask>
-  <linearGradient x1="-2391.06" y2="-1486.12" gradientTransform="matrix(0.47, 0.16, -0.22, 0.65, 972.51, 1628.32)" gradientUnits="userSpaceOnUse" y1="-1871" x2="-2391.06" id="linear-gradient">
+  <linearGradient id="linear-gradient" x1="-2391.06" gradientUnits="userSpaceOnUse" y2="-1486.12" gradientTransform="matrix(0.47, 0.16, -0.22, 0.65, 972.51, 1628.32)" x2="-2391.06" y1="-1871">
    <stop offset="0" stop-color="#fff"/>
    <stop offset="0.15" stop-color="#d0d0d0"/>
    <stop offset="0.38" stop-color="#939393"/>
@@ -17,16 +17,16 @@
    <stop offset="0.91" stop-color="#292929"/>
    <stop offset="1" stop-color="#212121"/>
   </linearGradient>
-  <filter x="114.98" filterUnits="userSpaceOnUse" height="252.73" y="37.89" id="luminosity-noclip-2" color-interpolation-filters="sRGB" width="167.76">
-   <feFlood result="bg" flood-color="#fff"/>
-   <feBlend in="SourceGraphic" in2="bg"/>
+  <filter id="luminosity-noclip-2" x="114.98" height="252.73" y="37.89" width="167.76" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+   <feFlood flood-color="#fff" result="bg"/>
+   <feBlend in2="bg" in="SourceGraphic"/>
   </filter>
-  <mask x="114.98" height="252.73" y="37.89" id="mask-2" width="167.76" maskUnits="userSpaceOnUse">
+  <mask id="mask-2" maskUnits="userSpaceOnUse" x="114.98" height="252.73" y="37.89" width="167.76">
    <g class="cls-1">
     <path d="M159.82,288.09c-17.58-5.85-31.36-21.37-38.79-43.7-9.41-28.26-7.78-64.16,4.48-98.45,12.66-35.43,32.54-66,56-86,21.67-18.5,43.87-25.87,60.89-20.22,33.08,11,54,73.39,30.12,155.08-9.8,33.59-29.63,62.93-54.42,80.51-19.89,14.1-40.54,18.64-58.16,12.79Z" class="cls-2"/>
    </g>
   </mask>
-  <linearGradient x1="-2391.06" y2="-1486.12" gradientTransform="matrix(0.47, 0.16, -0.22, 0.65, 972.51, 1628.32)" gradientUnits="userSpaceOnUse" y1="-1871" x2="-2391.06" id="linear-gradient-2">
+  <linearGradient id="linear-gradient-2" x1="-2391.06" gradientUnits="userSpaceOnUse" y2="-1486.12" gradientTransform="matrix(0.47, 0.16, -0.22, 0.65, 972.51, 1628.32)" x2="-2391.06" y1="-1871">
    <stop offset="0" stop-color="#fff"/>
    <stop offset="1" stop-color="#fff"/>
   </linearGradient>
