@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.8/17956
 // Filename: Waterfront_Easter.ggsk
-// Generated 2021-03-22T12:18:19
+// Generated 2021-03-23T11:19:51
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -69,7 +69,7 @@ function pano2vrSkin(player,base) {
 	player.addVariable('my_count_8', 1, 0);
 	player.addVariable('my_count_9', 1, 0);
 	player.addVariable('my_count_10', 1, 0);
-	player.addVariable('startscreen', 2, true);
+	player.addVariable('startscreen', 2, false);
 	player.addVariable('UA_ID', 0, "UA-45058513-1");
 	player.addVariable('UA_category', 0, "Hey-V&A-Campaign");
 	player.addVariable('opt_indicators', 2, false);
@@ -6592,7 +6592,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_external ";
 		el.ggType='external';
 		hs ='';
-		hs+='background : #ffc627;';
+		hs+='background : #003056;';
 		hs+='border : 0px solid #000000;';
 		hs+='bottom : 0px;';
 		hs+='cursor : pointer;';
@@ -6617,7 +6617,7 @@ function pano2vrSkin(player,base) {
 			return player.getCurrentNode();
 		}
 		me._externaleaster.onclick=function (e) {
-			player.openUrl("https:\/\/www.waterfront.co.za\/leisure\/offers\/","_blank");
+			player.openUrl("https:\/\/www.waterfront.co.za\/join-our-great-eggscape","_blank");
 			gtag('event', 'Advert Clicked', {
   'event_category': player.getVariableValue('UA_category'),
   'event_label': 'https://www.myistore.co.za/'
@@ -6659,7 +6659,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='bottom : 11%;';
+		hs+='bottom : 9%;';
 		hs+='height : 32px;';
 		hs+='position : absolute;';
 		hs+='right : 1%;';
@@ -6851,7 +6851,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_rectangle ";
 		el.ggType='rectangle';
 		hs ='';
-		hs+='background : #ffc627;';
+		hs+='background : #003056;';
 		hs+='border : 0px solid #000000;';
 		hs+='cursor : default;';
 		hs+='height : 92%;';
@@ -6884,7 +6884,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_rectangle ";
 		el.ggType='rectangle';
 		hs ='';
-		hs+='background : #ffc627;';
+		hs+='background : #003056;';
 		hs+='border : 0px solid #000000;';
 		hs+='cursor : default;';
 		hs+='height : 80%;';
@@ -7434,7 +7434,6 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_external ";
 		el.ggType='external';
 		hs ='';
-		hs+='background : #ffc627;';
 		hs+='border : 0px solid #000000;';
 		hs+='cursor : pointer;';
 		hs+='height : 100%;';
@@ -7459,7 +7458,7 @@ function pano2vrSkin(player,base) {
 			return player.getCurrentNode();
 		}
 		me._easter.onclick=function (e) {
-			player.openUrl("https:\/\/www.waterfront.co.za\/leisure\/offers\/","_blank");
+			player.openUrl("https:\/\/www.waterfront.co.za\/join-our-great-eggscape","_blank");
 			gtag('event', 'Advert Clicked', {
   'event_category': player.getVariableValue('UA_category'),
   'event_label': 'https://giftvouchers.waterfront.co.za/group/vawaterfront/vouchers/list?cat=all'
