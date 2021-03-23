@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.8/17956
 // Filename: Waterfront_Easter.ggsk
-// Generated 2021-03-23T14:19:32
+// Generated 2021-03-23T14:24:14
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -14008,7 +14008,7 @@ player.on("changenode", function() {
 
 var randomNumber = Math.floor(Math.random()*5);
 
-pano.setVariableValue("random_ad", randomNumber+1)
+pano.setVariableValue("random_ad", 0)
 });
 		el.appendChild(els);
 		me._randomjs.ggIsActive=function() {
